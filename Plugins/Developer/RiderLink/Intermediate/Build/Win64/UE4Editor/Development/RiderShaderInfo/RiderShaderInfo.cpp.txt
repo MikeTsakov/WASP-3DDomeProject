@@ -1,5 +1,5 @@
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\Definitions.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\Definitions.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.h
 S:\Programs\Unreal_Engine\UE_4.25\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
 S:\Programs\Unreal_Engine\UE_4.25\Engine\Source\Runtime\Core\Public\CoreTypes.h
 S:\Programs\Unreal_Engine\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/Platform.h

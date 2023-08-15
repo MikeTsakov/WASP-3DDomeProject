@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-RiderShaderInfo.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\RiderShaderInfo.cpp.obj"
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\Default.rc2.res"
-/OUT:"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\UE4Editor-RiderShaderInfo.lib"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\RiderShaderInfo.cpp.obj"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\Default.rc2.res"
+/OUT:"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderShaderInfo\UE4Editor-RiderShaderInfo.lib"
 /INCLUDE:IMPLEMENT_MODULE_RiderShaderInfo

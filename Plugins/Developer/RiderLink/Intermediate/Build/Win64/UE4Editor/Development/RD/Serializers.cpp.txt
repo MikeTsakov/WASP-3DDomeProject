@@ -1,9 +1,9 @@
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Serializers.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\Serializers.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cstddef
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\yvals_core.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\vcruntime.h
@@ -92,14 +92,14 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\string
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cctype
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\thread
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\__msvc_chrono.hpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\ratio
@@ -160,87 +160,87 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.3162
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\xlocmon
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\xloctime
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\codecvt
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\deque
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\assert.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\assert.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\chrono
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\string_view
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/xchar.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/xchar.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/xchar.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/xchar.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\assert.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\iostream
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\assert.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\unordered_set
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/Lifetime.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/Lifetime.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\map
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\xtree
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE\regex
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
+S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h

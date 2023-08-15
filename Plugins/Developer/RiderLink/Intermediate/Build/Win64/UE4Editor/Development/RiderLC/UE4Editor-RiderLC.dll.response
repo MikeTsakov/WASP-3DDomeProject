@@ -33,8 +33,8 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLC\RiderLC.cpp.obj"
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLC\Default.rc2.res"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLC\RiderLC.cpp.obj"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLC\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -61,10 +61,10 @@
 "imm32.lib"
 "S:\Programs\Unreal_Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "S:\Programs\Unreal_Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\UE4Editor-RiderLink.lib"
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\UE4Editor-RD.lib"
-/OUT:"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderLC.dll"
-/IMPLIB:"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLC\UE4Editor-RiderLC.suppressed.lib"
-/PDB:"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderLC.pdb"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\UE4Editor-RiderLink.lib"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\UE4Editor-RD.lib"
+/OUT:"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderLC.dll"
+/IMPLIB:"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLC\UE4Editor-RiderLC.suppressed.lib"
+/PDB:"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderLC.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_RiderLC

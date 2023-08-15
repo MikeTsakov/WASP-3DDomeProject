@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-RiderBlueprint.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\Module.RiderBlueprint.cpp.obj"
-"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\Default.rc2.res"
-/OUT:"S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\UE4Editor-RiderBlueprint.lib"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\Module.RiderBlueprint.cpp.obj"
+"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\Default.rc2.res"
+/OUT:"S:\Work\WASP2023\WASP-3DDomeProject\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprint\UE4Editor-RiderBlueprint.lib"
 /INCLUDE:IMPLEMENT_MODULE_RiderBlueprint
