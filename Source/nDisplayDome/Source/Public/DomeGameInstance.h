@@ -7,6 +7,8 @@
 #include "LevelSequencePlayer.h"
 #include "DomeGameInstance.generated.h"
 
+class ALevelSequenceActor;
+
 UCLASS()
 class NDISPLAYDOME_API ADomeGameInstance : public AActor
 {
@@ -30,5 +32,9 @@ private:
 
 	UPROPERTY()
 	ULevelSequencePlayer* SequencePlayer {};
+
+	UPROPERTY()
+	ALevelSequenceActor* OutActor {};
+
 };
 	
