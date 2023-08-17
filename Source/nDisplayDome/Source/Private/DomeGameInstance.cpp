@@ -25,6 +25,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 	{
 		FViewport* Viewport = GEngine->GameViewport->Viewport;
 		FMovieSceneSequencePlaybackSettings PlaybackSettings;
+		PlaybackSettings.bDisableCameraCuts = false;
 		ALevelSequenceActor* OutActor;
 		if (Viewport)
 		{
