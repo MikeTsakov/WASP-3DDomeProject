@@ -124,6 +124,30 @@ void ADomeGameInstance::Tick(float DeltaTime)
 					}
 				}
 			}
+			const FKey Key5(EKeys::Five);
+			if (Viewport->KeyState(Key5))
+			{
+				if (SequencePlayer)
+				{
+					if (SequencePlayer->IsPlaying())
+					{
+						SequencePlayer->Pause();
+						SequencePlayer = nullptr;
+					}
+				}
+				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/testinng.testinng"));
+				
+				if(MySequence)
+				{
+					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+					
+					if (SequencePlayer)
+					{
+						SequencePlayer->Play();
+					}
+				}
+			}
 			const FKey KeyP(EKeys::P);
 			if (Viewport->KeyState(KeyP))
 			{
