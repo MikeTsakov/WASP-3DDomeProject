@@ -1,2 +1,0 @@
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\DebugGame\RD\Definitions.h
-S:\Work\WASP2023\Final\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.h

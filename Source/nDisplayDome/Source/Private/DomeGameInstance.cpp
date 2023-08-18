@@ -7,6 +7,7 @@
 #include "LevelSequence/Public/LevelSequencePlayer.h"
 #include "LevelSequence/Public/LevelSequenceActor.h"
 #include "MediaAssets/Public/MediaPlayer.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 ADomeGameInstance::ADomeGameInstance()
 {
@@ -23,20 +24,20 @@ void ADomeGameInstance::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (GEngine && GEngine->GameViewport)
 	{
-		FViewport* Viewport = GEngine->GameViewport->Viewport;
+		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 		FMovieSceneSequencePlaybackSettings PlaybackSettings;
-		ALevelSequenceActor* OutActor;
-		if (Viewport)
+		PlaybackSettings.bDisableCameraCuts = false;
+		if (PlayerController)
 		{
 			const FKey Key1(EKeys::One);
-			if (Viewport->KeyState(Key1))
+			if (PlayerController->WasInputKeyJustPressed(Key1))
 			{
 				if (SequencePlayer)
 				{
 					if (SequencePlayer->IsPlaying())
 					{
 						SequencePlayer->Pause();
-						SequencePlayer = nullptr;
+						GetWorld()->DestroyActor(OutActor);
 					}
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team1/Seq/Team1.Team1"));
@@ -53,14 +54,14 @@ void ADomeGameInstance::Tick(float DeltaTime)
 				}
 			}
 			const FKey Key2(EKeys::Two);
-			if (Viewport->KeyState(Key2))
+			if (PlayerController->WasInputKeyJustPressed(Key2))
 			{
 				if (SequencePlayer)
 				{
 					if (SequencePlayer->IsPlaying())
 					{
 						SequencePlayer->Pause();
-						SequencePlayer = nullptr;
+						GetWorld()->DestroyActor(OutActor);
 					}
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team2/Seq/Team2.Team2"));
@@ -77,14 +78,14 @@ void ADomeGameInstance::Tick(float DeltaTime)
 				}
 			}
 			const FKey Key3(EKeys::Three);
-			if (Viewport->KeyState(Key3))
+			if (PlayerController->WasInputKeyJustPressed(Key3))
 			{
 				if (SequencePlayer)
 				{
 					if (SequencePlayer->IsPlaying())
 					{
 						SequencePlayer->Pause();
-						SequencePlayer = nullptr;
+						GetWorld()->DestroyActor(OutActor);
 					}
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team3/Seq/Team3.Team3"));
@@ -101,14 +102,14 @@ void ADomeGameInstance::Tick(float DeltaTime)
 				}
 			}
 			const FKey Key4(EKeys::Four);
-			if (Viewport->KeyState(Key4))
+			if (PlayerController->WasInputKeyJustPressed(Key4))
 			{
 				if (SequencePlayer)
 				{
 					if (SequencePlayer->IsPlaying())
 					{
 						SequencePlayer->Pause();
-						SequencePlayer = nullptr;
+						GetWorld()->DestroyActor(OutActor);
 					}
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team4_Enigma/Seq/Team4.Team4"));
@@ -124,25 +125,179 @@ void ADomeGameInstance::Tick(float DeltaTime)
 					}
 				}
 			}
+			const FKey Key5(EKeys::Five);
+			if (PlayerController->WasInputKeyJustPressed(Key5))
+			{
+				if (SequencePlayer)
+				{
+					if (SequencePlayer->IsPlaying())
+					{
+						SequencePlayer->Pause();
+						GetWorld()->DestroyActor(OutActor);
+					}
+				}
+				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/testinng.testinng"));
+				
+				if(MySequence)
+				{
+					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+					
+					if (SequencePlayer)
+					{
+						SequencePlayer->Play();
+					}
+				}
+			}
+			const FKey Key6(EKeys::Six);
+			if (PlayerController->WasInputKeyJustPressed(Key6))
+			{
+				if (SequencePlayer)
+				{
+					if (SequencePlayer->IsPlaying())
+					{
+						SequencePlayer->Pause();
+						GetWorld()->DestroyActor(OutActor);
+					}
+				}
+				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_stereo.test_stereo"));
+
+				if (MySequence)
+				{
+					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+
+					if (SequencePlayer)
+					{
+						SequencePlayer->Play();
+					}
+				}
+			}
+			const FKey Key7(EKeys::Seven);
+			if (PlayerController->WasInputKeyJustPressed(Key7))
+			{
+				if (SequencePlayer)
+				{
+					if (SequencePlayer->IsPlaying())
+					{
+						SequencePlayer->Pause();
+						GetWorld()->DestroyActor(OutActor);
+					}
+				}
+				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_shots.test_shots"));
+
+				if (MySequence)
+				{
+					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+
+					if (SequencePlayer)
+					{
+						SequencePlayer->Play();
+					}
+				}
+			}
+			const FKey Key8(EKeys::Eight);
+			if (PlayerController->WasInputKeyJustPressed(Key8))
+			{
+				if (SequencePlayer)
+				{
+					if (SequencePlayer->IsPlaying())
+					{
+						SequencePlayer->Pause();
+						GetWorld()->DestroyActor(OutActor);
+					}
+				}
+				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/new_map.new_map"));
+
+				if (MySequence)
+				{
+					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+
+					if (SequencePlayer)
+					{
+						SequencePlayer->Play();
+					}
+				}
+			}
+			const FKey Key9(EKeys::Nine);
+			if (PlayerController->WasInputKeyJustPressed(Key9))
+			{
+				if (SequencePlayer)
+				{
+					if (SequencePlayer->IsPlaying())
+					{
+						SequencePlayer->Pause();
+						GetWorld()->DestroyActor(OutActor);
+					}
+				}
+				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_multi_shots.test_multi_shots"));
+
+				if (MySequence)
+				{
+					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+
+					if (SequencePlayer)
+					{
+						SequencePlayer->Play();
+					}
+				}
+			}
+			const FKey Key0(EKeys::Zero);
+			if (PlayerController->WasInputKeyJustPressed(Key0))
+			{
+				if (SequencePlayer)
+				{
+					if (SequencePlayer->IsPlaying())
+					{
+						SequencePlayer->Pause();
+						GetWorld()->DestroyActor(OutActor);
+					}
+				}
+				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_multi_shots_main_world.test_multi_shots_main_world"));
+
+				if (MySequence)
+				{
+					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+
+					if (SequencePlayer)
+					{
+						SequencePlayer->Play();
+					}
+				}
+			}
+			const FKey KeyM(EKeys::M);
+			if (PlayerController->WasInputKeyJustPressed(KeyM))
+			{
+				UGameplayStatics::OpenLevel(this, FName("/Game/Venice_fast_building/Maps/Showcase"), true);
+			}
+			const FKey KeyN(EKeys::N);
+			if (PlayerController->WasInputKeyJustPressed(KeyN))
+			{
+				UGameplayStatics::OpenLevel(this, FName("/Game/World/Maps/World"), true);
+			}
 			const FKey KeyP(EKeys::P);
-			if (Viewport->KeyState(KeyP))
+			if (PlayerController->WasInputKeyJustPressed(KeyP))
 			{
 				SequencePlayer->Pause();
 			}
 			const FKey KeyO(EKeys::O);
-			if (Viewport->KeyState(KeyO))
+			if (PlayerController->WasInputKeyJustPressed(KeyO))
 			{
 				SequencePlayer->Play();
 			}
 			const FKey KeyClose(EKeys::LeftBracket);
-			if (Viewport->KeyState(KeyClose))
+			if (PlayerController->WasInputKeyJustPressed(KeyClose))
 			{
 				if (SequencePlayer)
 				{
 					SequencePlayer->Pause();
-					SequencePlayer = nullptr;
-					APlayerController* PC = GetWorld()->GetFirstPlayerController();
-					PC->SetViewTarget(PC->GetPawn());
+					GetWorld()->DestroyActor(OutActor);
+//					APlayerController* PC = GetWorld()->GetFirstPlayerController();
+//					PC->SetViewTarget(PC->GetPawn());
 				}
 			}
 		}

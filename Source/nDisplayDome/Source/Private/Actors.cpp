@@ -116,18 +116,6 @@ void AActors::Initialize()
     }
 }
 
-void AActors::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
-{
-	Super::PostEditChangeProperty(PropertyChangedEvent);
-
-	// Check if the changed property is the CharacterTransform property
-	if (PropertyChangedEvent.GetPropertyName() == GET_MEMBER_NAME_CHECKED(AActors, CharacterTransform))
-	{
-		// If so, update the actor's actual transform to match the new value of CharacterTransform
-		SetActorTransform(CharacterTransform);
-	}
-}
-
 FTransform AActors::GetTransform()
 {
 	return CharacterTransform;

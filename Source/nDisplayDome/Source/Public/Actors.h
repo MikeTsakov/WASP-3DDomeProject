@@ -41,8 +41,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	
-	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
-	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	USkeletalMeshComponent* SkeletalMeshComponent;
 

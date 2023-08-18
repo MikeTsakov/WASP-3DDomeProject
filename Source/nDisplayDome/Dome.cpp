@@ -8,8 +8,11 @@
 // Sets default values
 ADome::ADome()
 {
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
 	Mesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("GeneratedMesh"));
-	RootComponent = Mesh;Mesh->bUseAsyncCooking = true;
+	RootComponent = Mesh;
+	Mesh->bUseAsyncCooking = true;
 	FieldOfView = 180.f;
 	Radius = 100.f;
 	UVRotation = 0.f;
@@ -20,6 +23,12 @@ void ADome::BeginPlay()
 {
 	Super::BeginPlay();
 	CreateDome();
+}
+
+// Called every frame
+void ADome::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
 }
 
 void ADome::PostLoad()
@@ -33,6 +42,7 @@ void ADome::PostActorCreated()
 	Super::PostActorCreated();
 	CreateDome();
 }
+
 void ADome::OnConstruction(const FTransform& Transform) 
 {
 	CreateDome();
