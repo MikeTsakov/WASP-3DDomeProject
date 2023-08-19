@@ -50,6 +50,7 @@ private:
 	FString Team4 = TEXT("/Game/Team4_Enigma/Sequence/Team4.Team4");
 
 	FString Test1 =  TEXT("/Game/Tests/test_multi_shots.test_multi_shots");
+	FString Test2 =  TEXT("/Game/Tests/test_stereo.test_stereo");
 	
 	UPROPERTY()
 	ULevelSequence* MySequence;

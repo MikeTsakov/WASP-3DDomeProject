@@ -23,6 +23,7 @@ void ADomePlayerControllerCustom::SetupInputComponent()
 	InputComponent->BindAction("ClearSequence", IE_Released, this, &ADomePlayerControllerCustom::ClearSequence);
 
 	InputComponent->BindAction<SequenceName>("Input_Five", IE_Released, this, &ADomePlayerControllerCustom::LoadSequence, Test1);
+	InputComponent->BindAction<SequenceName>("Input_Six", IE_Released, this, &ADomePlayerControllerCustom::LoadSequence, Test2);
 	
 }
 
