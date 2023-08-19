@@ -34,11 +34,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team1/Seq/Team1.Team1"));
 				
@@ -58,11 +54,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team2/Seq/Team2.Team2"));
 				
@@ -82,11 +74,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team3/Seq/Team3.Team3"));
 				
@@ -106,11 +94,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team4_Enigma/Seq/Team4.Team4"));
 				
@@ -130,11 +114,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/testinng.testinng"));
 				
@@ -154,11 +134,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_stereo.test_stereo"));
 
@@ -178,11 +154,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_shots.test_shots"));
 
@@ -202,11 +174,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/new_map.new_map"));
 
@@ -226,11 +194,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_multi_shots.test_multi_shots"));
 
@@ -250,11 +214,7 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				if (SequencePlayer)
 				{
-					if (SequencePlayer->IsPlaying())
-					{
-						SequencePlayer->Pause();
-						GetWorld()->DestroyActor(OutActor);
-					}
+					GetWorld()->DestroyActor(OutActor);
 				}
 				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Tests/test_multi_shots_main_world.test_multi_shots_main_world"));
 
@@ -289,8 +249,8 @@ void ADomeGameInstance::Tick(float DeltaTime)
 			{
 				SequencePlayer->Play();
 			}
-			const FKey KeyClose(EKeys::LeftBracket);
-			if (PlayerController->WasInputKeyJustPressed(KeyClose))
+			const FKey KeyK(EKeys::K);
+			if (PlayerController->WasInputKeyJustPressed(KeyK))
 			{
 				if (SequencePlayer)
 				{
