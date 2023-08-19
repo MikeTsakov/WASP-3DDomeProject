@@ -3,20 +3,26 @@
 
 #include "Source/Public/DomeGameInstance.h"
 #include "FileMediaSource.h"
-#include "MovieSceneSequencePlayer.h"
 #include "LevelSequence/Public/LevelSequencePlayer.h"
 #include "LevelSequence/Public/LevelSequenceActor.h"
 #include "MediaAssets/Public/MediaPlayer.h"
-#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
 ADomeGameInstance::ADomeGameInstance()
 {
 	PrimaryActorTick.bCanEverTick = true;
 }
 
+//void YourCharacterClass::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+//{
+//	Super::SetupPlayerInputComponent(PlayerInputComponent);
+//	PlayerInputComponent->BindAction("YourActionName", IE_Pressed, this, &YourCharacterClass::YourFunctionName);
+//	PlayerInputComponent->BindAxis("YourAxisName", this, &YourCharacterClass::YourFunctionForAxis);
+//}
+
 void ADomeGameInstance::BeginPlay()
 {
     Super::BeginPlay();
+	PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 }
 
 void ADomeGameInstance::Tick(float DeltaTime)
@@ -24,9 +30,6 @@ void ADomeGameInstance::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	if (GEngine && GEngine->GameViewport)
 	{
-		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
-		FMovieSceneSequencePlaybackSettings PlaybackSettings;
-		PlaybackSettings.bDisableCameraCuts = false;
 		if (PlayerController)
 		{
 			const FKey Key1(EKeys::One);
@@ -36,18 +39,8 @@ void ADomeGameInstance::Tick(float DeltaTime)
 				{
 					GetWorld()->DestroyActor(OutActor);
 				}
-				MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team1/Seq/Team1.Team1"));
-				
-				if(MySequence)
-				{
-					SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
-					SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
-					
-					if (SequencePlayer)
-					{
-						SequencePlayer->Play();
-					}
-				}
+
+				LoadSequence(Team1);
 			}
 			const FKey Key2(EKeys::Two);
 			if (PlayerController->WasInputKeyJustPressed(Key2))
@@ -260,6 +253,23 @@ void ADomeGameInstance::Tick(float DeltaTime)
 //					PC->SetViewTarget(PC->GetPawn());
 				}
 			}
+		}
+	}
+}
+
+void ADomeGameInstance::LoadSequence(FString TeamSeq) 
+{
+	PlaybackSettings.bDisableCameraCuts = false;
+	MySequence = LoadObject<ULevelSequence>(nullptr, TEXT("/Game/Team1/Seq/Team1.Team1"));
+
+	if (MySequence)
+	{
+		SequencePlayer = ULevelSequencePlayer::CreateLevelSequencePlayer(GetWorld(), MySequence, PlaybackSettings, OutActor);
+		SequencePlayer->OnFinished.AddDynamic(this, &ADomeGameInstance::OnSequenceFinished);
+
+		if (SequencePlayer)
+		{
+			SequencePlayer->Play();
 		}
 	}
 }
