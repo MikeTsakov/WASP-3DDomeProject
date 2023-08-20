@@ -49,8 +49,8 @@ private:
 	FString Team3 = TEXT("/Game/Team3/Sequence/Team3.Team3");
 	FString Team4 = TEXT("/Game/Team4_Enigma/Sequence/Team4.Team4");
 
-	FString Test1 =  TEXT("/Game/Tests/test_multi_shots.test_multi_shots");
-	FString Test2 =  TEXT("/Game/Tests/test_stereo.test_stereo");
+	FString Test1 =  TEXT("/Game/Tests/shots2.shots2");
+	FString Test2 =  TEXT("/Game/Tests/test_multi_shots.test_multi_shots");
 	
 	UPROPERTY()
 	ULevelSequence* MySequence;
